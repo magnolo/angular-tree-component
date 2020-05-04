@@ -1,4 +1,9 @@
 {
+  "linterOptions": {
+    "exclude": [
+        "dist/**/*.*"
+    ]
+  },
   "rulesDirectory": [
     "node_modules/codelyzer"
   ],
@@ -18,7 +23,7 @@
     "label-position": true,
     "max-line-length": [
       true,
-      140
+      800
     ],
     "member-access": false,
     "member-ordering": [
